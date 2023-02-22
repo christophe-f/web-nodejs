@@ -10,3 +10,6 @@ spec:
   type: website
   owner: janus-authors
   lifecycle: experimental
+  system: coolstore
+  dependsOn:
+    - component:gateway-vertx
